@@ -14,7 +14,7 @@ MC_PE_PORT = os.getenv("MC_PE_PORT", "Hidden")
 
 # Gunakan environment variables
 TOKEN = os.getenv("TOKEN")  
-SERVER_IP = os.getenv("SERVER_IP", "25.ip.gl.ply.gg")  
+SERVER_IP = os.getenv("SERVER_IP")  
 SERVER_PORT = int(os.getenv("SERVER_PORT"))  
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 
